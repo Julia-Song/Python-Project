@@ -1,0 +1,33 @@
+series는 1차원
+dataframe은 2차원
+
+from pandas import Series, DataFrame
+라고 많이 한다.
+
+
+속성 보기 : dir(a)
+
+함수명이랑 이름이랑 같으면 실행이 안되는데 그럴땐 이렇게 하면된다.
+frame.index=frame['pop']
+
+
+크롤링 로봇 / 공공데이터를 가지고 하는 방법
+
+
+df = pd.read_csv(filename,engine="python")
+
+파일명이 한글이면 못읽는데 무조건 engine="python"을 붙여라
+
+다나오게해 :  outer
+맞는것만(매칭되는것만) : inner
+오른쪽꺼에 있는것만 나와 : right
+왼쪽꺼에 있는거만 나와 :  left
+
+모를땐 이렇게 찾기 : 
+help(gf.plot)
+
+stackoverflow : 개발자들이 질의응답하는 사이트 중 가장 유명한 사이트
+
+how to srt dataframe in pandas
+
+how to select top 10 in dataframe in pandas

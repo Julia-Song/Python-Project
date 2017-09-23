@@ -1,0 +1,17 @@
+영화 박스오피스 json
+http://www.kobis.or.kr/kobisopenapi
+
+
+from math import sin, cos, ceil		#math라는 모듈안에 함수가 엄청 많은데 그 중 3개를 부르는거다. 그러면 속도가 빨라지니까.
+sin(90)
+
+import math
+math.sin(90)
+
+import simplejson as s
+s.load
+
+
+from math import *
+sin(90)			#이렇게 쳐도 된다.
+from pygame import * 	#pygame 다불러

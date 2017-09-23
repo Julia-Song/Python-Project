@@ -1,0 +1,7 @@
+http://www.wordle.net/create
+
+a.replace("""","")  하면 쌍따옴표 다 없어지지만 가운데 있는 "" 도 없어지므로 문제가 된다.
+
+
+import csv
+이런 모듈이 있다. 기본적으로 콤마 다 짤라준다.

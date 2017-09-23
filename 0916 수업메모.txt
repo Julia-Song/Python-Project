@@ -1,0 +1,27 @@
+utf,newline= ""  을 추가
+naver  모듈에서 함수를 만들어야한다.
+
+
+rs=bs.find_all("a",class":r.compile("nclic")})
+rs=bs.find_all("a",class":"nclic"})
+
+
+아나콘다 프롬프트 창에서
+pip install selenium
+을 쳐서 selenium을 설치
+
+
+크롬이 기본적으로 깔려야한다.
+안깔려 있으며 ㄴchrome webdriver쳐서 다운받으면 됨.
+
+
+
+def test(i):
+	x=i*20
+	y=i+20
+	return x,y
+
+a,b=test(10)
+
+m=test(10)
+m[0] 
